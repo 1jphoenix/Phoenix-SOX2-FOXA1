@@ -41,6 +41,9 @@ deeptools
 ```bash
 pip install -r requirements.txt
 
+
+---
+
 Alternatively, open the notebooks directly in Colab.
 
 ## License
