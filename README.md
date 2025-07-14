@@ -1,5 +1,3 @@
-# Phoenix-SOX2-FOXA1
-Phoenix, et. al | SOX2 utilizes FOXA1 as a heteromeric transcriptional partner to drive proliferation in therapy-resistant prostate cancer
 # SOX2 utilizes FOXA1 as a heteromeric transcriptional partner to drive proliferation in therapy-resistant prostate cancer
 
 > Code includes transcription factor binding analysis, ChIP-seq peak overlaps, UpSet plotting, RNA-seq visualization, and ChIP-seq signal heatmaps using BED and BigWig files.
@@ -25,32 +23,34 @@ Phoenix, et. al | SOX2 utilizes FOXA1 as a heteromeric transcriptional partner t
 ## Dependencies
 
 These notebooks were developed in **Google Colab** and require the following Python packages:
-pandas
-numpy
-matplotlib
-matplotlib-venn
-seaborn
-upsetplot
-pybedtools
-pyranges
-biothings-client
-deeptools
-
-## You can install these locally via pip:
-
-```bash
-pip install -r requirements.txt
-
+pandas,
+numpy,
+matplotlib,
+matplotlib-venn,
+seaborn,
+upsetplot,
+pybedtools,
+pyranges,
+biothings-client,
+ and deeptools
 
 ---
 
-Alternatively, open the notebooks directly in Colab.
-
 ## License
 This project is licensed under the MIT License.
+
+---
 
 ## Citation
 If you use this code, please cite the manuscript:
 "SOX2 utilizes FOXA1 as a heteromeric transcriptional partner to drive proliferation in therapy-resistant prostate cancer"
 [Phoenix, et. al (2025)].
 A DOI or preprint link will be added once available.
+
+---
+
+## You can install the dependencies locally via pip:
+
+```bash
+pip install -r requirements.txt
+
