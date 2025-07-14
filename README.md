@@ -2,11 +2,7 @@
 Phoenix, et. al | SOX2 utilizes FOXA1 as a heteromeric transcriptional partner to drive proliferation in therapy-resistant prostate cancer
 # SOX2 utilizes FOXA1 as a heteromeric transcriptional partner to drive proliferation in therapy-resistant prostate cancer
 
-This repository contains code used in the analyses presented in the manuscript:  
-**"SOX2 utilizes FOXA1 as a heteromeric transcriptional partner to drive proliferation in therapy-resistant prostate cancer"**  
-(*Authors*, Year)
-
-> Code includes transcription factor binding analysis, ChIP-seq peak overlaps, UpSet plotting, RNA-seq visualization, and ChIP-seq signal heatmaps using BigWig files.
+> Code includes transcription factor binding analysis, ChIP-seq peak overlaps, UpSet plotting, RNA-seq visualization, and ChIP-seq signal heatmaps using BED and BigWig files.
 
 ---
 
@@ -40,18 +36,18 @@ pyranges
 biothings-client
 deeptools
 
-You can install these locally via pip:
+## You can install these locally via pip:
 
 ```bash
 pip install -r requirements.txt
 
 Alternatively, open the notebooks directly in Colab.
 
-License
+## License
 This project is licensed under the MIT License.
 
-Citation
-If you use this code, please cite our manuscript:
+## Citation
+If you use this code, please cite the manuscript:
 "SOX2 utilizes FOXA1 as a heteromeric transcriptional partner to drive proliferation in therapy-resistant prostate cancer"
 [Phoenix, et. al (2025)].
 A DOI or preprint link will be added once available.
